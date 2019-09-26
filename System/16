@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    16                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: apalaz <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/05/01 17:26:25 by apalaz            #+#    #+#              #
+#    Updated: 2019/05/01 17:28:15 by apalaz           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Cron allows Linux and Unix users to run commands or scripts at a
+given date and time. You can schedule scripts to be executedn periodically.
+For example, you can run a backup of all your user accounts at 5 a.m
+every first day of the week with:
+0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+(* * * * * --> 1st* representing minutes, 2nd* hours, 3rd* day of the month,
+4th* month, 5th* day of the week)

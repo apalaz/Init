@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: apalaz <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/05/01 17:11:43 by apalaz            #+#    #+#              #
+#    Updated: 2019/05/01 17:16:03 by apalaz           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Pour se connecter en ssh:
+-Trouver FQDN (Fully Qualified Domain Name) en faisant la commande : hostname -f
+-Se connecter a un User en faisant la commande: ssh USERNAME@FQDN 
+-Entrer le password
+-Pour verifier si on a bien switcher au bon User faire la commade: users
+
+Pour se connecter en session graphique:
+Logout et on se log sur l'autre utilisateur

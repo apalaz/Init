@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    15                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: apalaz <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/05/01 17:51:00 by apalaz            #+#    #+#              #
+#    Updated: 2019/05/01 17:58:30 by apalaz           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Il faut ajouter une ligne dans le fichier /etc/hosts comme celle-ci:
+46.19.122.85   intra.42.fr
+il est possible de le faire si on est un utilisateur qui a les droits d'acces
+a ce fichier a l'aide de la commande
+--> sudo echo "46.19.122.85   intra.42.fr" >> /etc/hosts
